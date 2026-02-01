@@ -6,17 +6,23 @@ Ultimately, in this project I developed 4 separate models based on the same fund
 
 The below images contain the loss curves for each trained model, with the first two models being trained on a simple bowl-pushing scenario and the second two models being trained on a pick-and-place scenario involving a bowl and cube.
 
-Sim-Data Push Model:
+##Sim-Data Push Model:
+
 ![Model 1 Sim](/Deliverables/Model1/sim_push_loss_curve.png)
 
-Real-Data Push Model:
+##Real-Data Push Model:
+
 ![Model 1 Real](/Deliverables/Model1_Real/real_push_loss_curve.png)
 
-Sim-Data Pick-and-Place Model:
+##Sim-Data Pick-and-Place Model:
+
 ![Model 2 Sim](/Deliverables/Model2/new_sim_pick_place_loss_curve.png)
 
-Real-Data Pick-and-Place Model:
+##Real-Data Pick-and-Place Model:
+
 ![Model 2 Real](/Deliverables/Model2_Real/new_real_pick_place_loss_curve.png)
+
+## Analysis
 
 All 4 loss curves followed a fairly expected trajectory, steadily decreasing as the number of epochs increased. Notice too that the Pick-and-Place models both required more epochs to undergo sufficient loss decreases.
 
