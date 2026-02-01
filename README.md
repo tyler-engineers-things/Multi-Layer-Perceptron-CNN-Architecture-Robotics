@@ -1,1 +1,3 @@
 # Multi-Layer-Perceptron-CNN-Architecture-Robotics
+
+This repo contains my implementation of a Multi-Layer Perceptron Convolutional Neural Network which was trained on a MuJoCo-based simulation dataset as well as a dataset full of real-life robotic manipulator data, with the end goal being to generate a trajectory for pushing a bowl and a second trajectory for picking up a block and placing it in a bowl. The code used, as well as loss curves and other documentation relevant to these tasks can be found in this repo. In the coming days I will organize this readme to contain these various loss curves for the different trained models.
